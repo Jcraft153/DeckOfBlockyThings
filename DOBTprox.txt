@@ -1,0 +1,42 @@
+@Mod.EventBusSubscriber
+public class CommonProxy {
+    public static Configuration config;
+	public void preInit(FMLPreInitializationEvent e) {
+		File directory = e.getModConfigurationDirectory();
+        config = new Configuration(new File(directory.getPath(), "modtut.cfg"));
+        Config.readConfig();
+    }
+
+    public void init(FMLInitializationEvent e) {
+    }
+
+    public void postInit(FMLPostInitializationEvent e) {
+	    if (config.hasChanged()) {
+        config.save();
+    }
+
+    @SubscribeEvent
+    public static void registerBlocks(RegistryEvent.Register<Block> event) {
+    }
+
+    @SubscribeEvent
+    public static void registerItems(RegistryEvent.Register<Item> event) {
+    }
+}
+
+
+@Mod.EventBusSubscriber(Side.CLIENT)
+public class ClientProxy extends CommonProxy {
+    @Override
+    public void preInit(FMLPreInitializationEvent e) {
+        super.preInit(e);
+    }
+
+    @SubscribeEvent
+    public static void registerModels(ModelRegistryEvent event) {
+    }
+}
+
+public class ServerProxy extends CommonProxy {
+
+}
