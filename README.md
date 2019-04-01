@@ -2,6 +2,8 @@
 A Deck of Many Things in Minecraft.
 We are taking the full deck of many things as we understand it to exist per the defination for D&D 5e and changing the mechanics to fit within a minecraft setting. 
 
+DOBTxxx are code files just fyi.
+
 What the cards will look like rules wise (our current ideas for the cards as per the first of April 2019): 
 Note: refrences to the "modpack" are a custom modpack we are using to test this mod.  
 
