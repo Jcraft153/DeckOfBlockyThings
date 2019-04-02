@@ -6,7 +6,7 @@ Card Balance
 		remove stength add weakness for same time and levels
 	etc for all of Weakness, Strength, haste, miningFatuige, speed, slowness, hunger, saturation, luck, badLuck, nightVision, blindness, invis, glowing
 	if player has potion effects that are not flippable mechanically but could be flippable thematically then cancel them
-	e.g levitation, jump boost (effects can be applied with -ve the current level to actually flip the effect)
+	e.g levitation, jump boost (jump boost effect can be applied with -ve the current level to actually flip the effect)
 	
 Card Comet
 	summon one of either
@@ -28,7 +28,7 @@ Card The_Fates
 	Player has to choose either
 		Cancel all potion effects
 	or
-		Edit EXP levels by 30
+		Add 30 EXP levels
 	
 
 Card Flames
@@ -101,6 +101,8 @@ Card Talons
 	check every slot in inventory
 	if contains enchanted item
 		delete item
+	else
+		spawn enderman in front of player
 
 Card Throne
 	spawn structure keep, fill with monsters
@@ -120,12 +122,13 @@ Card Planes
 	tp player to random dimension
 
 Card Portal
-	summon "swap mob" nitwit villager
-	tp swap_mob to player2
-	tp player2 to player
-	tp player to swap_mob
-	kill swap_mob
-	(Unecessary, just log position in a var then destroy)
+	if another player is online
+		log position of player
+		tp player to player2
+		tp player2 to logged position
+	else
+		tp player somewhere random
+	
 
 Card Adventure
 	/gamemode adventure (2) player
