@@ -1,6 +1,6 @@
 Card Balance
 	health = maxHealth - currentHealth
-	hunher = maxHunger - currentHunger
+	hunger = maxHunger - currentHunger
 	
 	if player has potion effect Strength, 
 		remove stength add weakness for same time and levels
@@ -16,13 +16,13 @@ Card Comet
 	
 
 Card Donjon
-	summon structure of random thickness walls 1-5 blocks, obsidian cube with 1x2 void for player in centre.  At buildlimit - 10 blocks
-	tp player into void
+	summon structure of random thickness walls 1-5 blocks, obsidian cube with 1x2 space for player in centre.  At buildlimit - 10 blocks
+	tp player into space
 	give player effect miningFatuige for however many min there is thickness of wall.
 
 Card Euryale
-	Add effect Slowness for time infinate to player that drew this card
-	Add effect Weakness for time infinate to player that drew this card
+	Add effect Slowness for time infinite to player that drew this card
+	Add effect Weakness for time infinite to player that drew this card
 	
 Card The_Fates
 	Player has to choose either
@@ -84,7 +84,7 @@ Card Skull
 	if player dies, kill skele.
 
 Card Star
-	increace max health by 2 hearts (4 health i think)
+	increace max health by 2 hearts (4 health i think - Yes)
 
 Card Sun
 	give player 50,000 EXP & either
@@ -125,9 +125,10 @@ Card Portal
 	tp player2 to player
 	tp player to swap_mob
 	kill swap_mob
+	(Unecessary, just log position in a var then destroy)
 
 Card Adventure
-	/gamemode adventure player
+	/gamemode adventure (2) player
 
 Card Beacon
 	sets block in front of player to be a chest with a beacon and 9 blocks of iron or 9 blocks of diamond
