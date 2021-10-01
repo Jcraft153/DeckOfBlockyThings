@@ -1,4 +1,4 @@
-# DeckOfBlockyThings
+# DeckOfBlockyThings - Creator's Fork
 A Deck of Many Things in Minecraft.
 We are taking the full deck of many things as we understand it to exist per the defination for D&D 5e and changing the mechanics to fit within a minecraft setting. 
 
@@ -73,3 +73,5 @@ Vizier of the lake (nuet): spawns a wandering trader in a boat in a lake with cu
 Squid Game (evil): teleported to a platform in the sky (at build-limit) where you must play the glass jumping game.  If you complete the game then you get some good items and are teleported back.  If you fail then you fall to your death and the platform is removed.
 
 Dragon Hunter (BRUTAL): you summon the ender dragon to your current position.  The player that kills the dragon gets a reward.
+
+Creator's Fork (decent): gives the player the creator's fork (an enchanted trident with a cool metadata tag or something)
