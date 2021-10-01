@@ -11,8 +11,8 @@ Card Balance
 Card Comet
 	summon one of either
 	Bob_The_Lvl_5_Barbarian (literally just bob from the lucky block mod)
-	a skeleton on skeleton horse with enchanted shit
-	a skeleton in a boat with enchanted shit (but with a weapon and pissed off this time)
+	a skeleton on skeleton horse with enchanted weapons
+	a skeleton in a boat with enchanted weapons
 	
 
 Card Donjon
@@ -39,7 +39,7 @@ Card Fool
 	force another card to be drawn
 
 Card Gem
-	Spawn a fuckton of diamons, exp bottles, enchanted books, emeralds, hearts of the sea, elytras, shulker shells & more
+	Spawn a ton of diamons, exp bottles, enchanted books, emeralds, hearts of the sea, elytras, shulker shells & more
 
 Card Idiot
 	if tool on hotbar
@@ -62,7 +62,7 @@ Card Knight
 	summon 2 iron_golems near player (within 10 blocks)
 
 Card Moon
-	lots of messages in chat about how lucky the player is and how an admin should give them 1-3 wishes
+	lots of messages in chat about how lucky the player is and how an admin should give them 1-3 wishes  OR loot chest item and a refundable token for a wish from an admin.  (must give to admin to collect the wish)
 
 Card Rogue
 	summon one of either
@@ -108,14 +108,15 @@ Card Throne
 	spawn structure keep, fill with monsters
 
 Card Vizier_of_the_lake
-	spawn structure panzer_of_the_lake
+	spawn structure lake
+	spawn wandering trader in boat (edit wandering trader to have custom trades)
 
 
 Card The_Void
 	clear player's inventory
 	tp player to the void
 	message in chat about how the player killed a puppy
-	ideally death message would be "XXX was an arsehole and killed a puppy"
+	ideally death message would be "XXX killed a puppy"
 
 Card Planes
 	pick random dimension
